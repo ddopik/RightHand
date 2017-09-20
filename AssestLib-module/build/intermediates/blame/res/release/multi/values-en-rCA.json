@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\ddopik\\Desktop\\ScopeListner\\AssestLib-module\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\40918bf502bbf49aa11e9817fab83986f220aa8d\\output\\res\\values-en-rCA\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 103,
+                        "endOffset": 391
+                    }
+                }
+            }
+        ]
+    }
+]
