@@ -1,0 +1,4268 @@
+[
+    {
+        "outputFile": "C:\\Users\\ddopik\\Desktop\\ScopeListner\\AssestLib-module\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 116,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 116,
+                        "endOffset": 167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 107,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 107,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 330,
+                    "endColumn": 122,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 122,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 453,
+                    "endColumn": 112,
+                    "endOffset": 561
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 112,
+                        "endOffset": 511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 566,
+                    "endColumn": 107,
+                    "endOffset": 669
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 107,
+                        "endOffset": 619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 674,
+                    "endColumn": 84,
+                    "endOffset": 754
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 84,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 759,
+                    "endColumn": 100,
+                    "endOffset": 855
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 100,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 860,
+                    "endColumn": 127,
+                    "endOffset": 983
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 810,
+                        "endColumn": 127,
+                        "endOffset": 933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 988,
+                    "endColumn": 75,
+                    "endOffset": 1059
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 75,
+                        "endOffset": 1009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1064,
+                    "endColumn": 75,
+                    "endOffset": 1135
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 75,
+                        "endOffset": 1085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1140,
+                    "endColumn": 81,
+                    "endOffset": 1217
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 81,
+                        "endOffset": 1167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1222,
+                    "endColumn": 106,
+                    "endOffset": 1324
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endColumn": 106,
+                        "endOffset": 1274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1329,
+                    "endColumn": 99,
+                    "endOffset": 1424
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1279,
+                        "endColumn": 99,
+                        "endOffset": 1374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1429,
+                    "endColumn": 98,
+                    "endOffset": 1523
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1379,
+                        "endColumn": 98,
+                        "endOffset": 1473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1528,
+                    "endColumn": 107,
+                    "endOffset": 1631
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1478,
+                        "endColumn": 107,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1636,
+                    "endColumn": 106,
+                    "endOffset": 1738
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endColumn": 106,
+                        "endOffset": 1688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1743,
+                    "endColumn": 106,
+                    "endOffset": 1845
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1693,
+                        "endColumn": 106,
+                        "endOffset": 1795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1850,
+                    "endColumn": 121,
+                    "endOffset": 1967
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1800,
+                        "endColumn": 121,
+                        "endOffset": 1917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1972,
+                    "endColumn": 99,
+                    "endOffset": 2067
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1922,
+                        "endColumn": 99,
+                        "endOffset": 2017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2072,
+                    "endColumn": 95,
+                    "endOffset": 2163
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 344,
+                        "endColumn": 95,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2168,
+                    "endColumn": 89,
+                    "endOffset": 2253
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 89,
+                        "endOffset": 525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2258,
+                    "endColumn": 116,
+                    "endOffset": 2370
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 116,
+                        "endOffset": 642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2375,
+                    "endColumn": 85,
+                    "endOffset": 2456
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 647,
+                        "endColumn": 85,
+                        "endOffset": 728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2461,
+                    "endColumn": 117,
+                    "endOffset": 2574
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 733,
+                        "endColumn": 117,
+                        "endOffset": 846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2579,
+                    "endColumn": 100,
+                    "endOffset": 2675
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 851,
+                        "endColumn": 100,
+                        "endOffset": 947
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2680,
+                    "endColumn": 78,
+                    "endOffset": 2754
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 952,
+                        "endColumn": 78,
+                        "endOffset": 1026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2759,
+                    "endColumn": 93,
+                    "endOffset": 2848
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1031,
+                        "endColumn": 93,
+                        "endOffset": 1120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2853,
+                    "endColumn": 93,
+                    "endOffset": 2942
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1125,
+                        "endColumn": 93,
+                        "endOffset": 1214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2947,
+                    "endColumn": 107,
+                    "endOffset": 3050
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1219,
+                        "endColumn": 107,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3055,
+                    "endColumn": 77,
+                    "endOffset": 3128
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endColumn": 77,
+                        "endOffset": 1400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3133,
+                    "endColumn": 135,
+                    "endOffset": 3264
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\5adba486c57e44ae1ad2733d7b172f6e255f7841\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 333,
+                        "endColumn": 135,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3269,
+                    "endColumn": 137,
+                    "endOffset": 3402
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\5adba486c57e44ae1ad2733d7b172f6e255f7841\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 469,
+                        "endColumn": 137,
+                        "endOffset": 602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3407,
+                    "endColumn": 98,
+                    "endOffset": 3501
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\5adba486c57e44ae1ad2733d7b172f6e255f7841\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 607,
+                        "endColumn": 98,
+                        "endOffset": 701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3506,
+                    "endColumn": 75,
+                    "endOffset": 3577
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1405,
+                        "endColumn": 75,
+                        "endOffset": 1476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3582,
+                    "endColumn": 78,
+                    "endOffset": 3656
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1481,
+                        "endColumn": 78,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3661,
+                    "endColumn": 79,
+                    "endOffset": 3736
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 79,
+                        "endOffset": 1635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3741,
+                    "endColumn": 94,
+                    "endOffset": 3831
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1640,
+                        "endColumn": 94,
+                        "endOffset": 1730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3836,
+                    "endColumn": 94,
+                    "endOffset": 3926
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1735,
+                        "endColumn": 94,
+                        "endOffset": 1825
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3931,
+                    "endColumn": 116,
+                    "endOffset": 4043
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1830,
+                        "endColumn": 116,
+                        "endOffset": 1942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4048,
+                    "endColumn": 101,
+                    "endOffset": 4145
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1947,
+                        "endColumn": 101,
+                        "endOffset": 2044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4150,
+                    "endColumn": 100,
+                    "endOffset": 4246
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2049,
+                        "endColumn": 100,
+                        "endOffset": 2145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4251,
+                    "endColumn": 75,
+                    "endOffset": 4322
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2150,
+                        "endColumn": 75,
+                        "endOffset": 2221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4327,
+                    "endColumn": 108,
+                    "endOffset": 4431
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2226,
+                        "endColumn": 108,
+                        "endOffset": 2330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4436,
+                    "endColumn": 96,
+                    "endOffset": 4528
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2335,
+                        "endColumn": 96,
+                        "endOffset": 2427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4533,
+                    "endColumn": 100,
+                    "endOffset": 4629
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2432,
+                        "endColumn": 100,
+                        "endOffset": 2528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4634,
+                    "endColumn": 143,
+                    "endOffset": 4773
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2533,
+                        "endColumn": 143,
+                        "endOffset": 2672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4778,
+                    "endColumn": 135,
+                    "endOffset": 4909
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2677,
+                        "endColumn": 135,
+                        "endOffset": 2808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4914,
+                    "endColumn": 134,
+                    "endOffset": 5044
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2813,
+                        "endColumn": 134,
+                        "endOffset": 2943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5049,
+                    "endColumn": 130,
+                    "endOffset": 5175
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2948,
+                        "endColumn": 130,
+                        "endOffset": 3074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5180,
+                    "endColumn": 97,
+                    "endOffset": 5273
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 3079,
+                        "endColumn": 97,
+                        "endOffset": 3172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5278,
+                    "endColumn": 95,
+                    "endOffset": 5369
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 3177,
+                        "endColumn": 95,
+                        "endOffset": 3268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5374,
+                    "endColumn": 105,
+                    "endOffset": 5475
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 3273,
+                        "endColumn": 105,
+                        "endOffset": 3374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5480,
+                    "endColumn": 84,
+                    "endOffset": 5560
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3379,
+                        "endColumn": 84,
+                        "endOffset": 3459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5565,
+                    "endColumn": 163,
+                    "endOffset": 5724
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 163,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5729,
+                    "endColumn": 142,
+                    "endOffset": 5867
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 142,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5872,
+                    "endColumn": 152,
+                    "endOffset": 6020
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 362,
+                        "endColumn": 152,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6025,
+                    "endColumn": 114,
+                    "endOffset": 6135
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 515,
+                        "endColumn": 114,
+                        "endOffset": 625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6140,
+                    "endColumn": 84,
+                    "endOffset": 6220
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 630,
+                        "endColumn": 84,
+                        "endOffset": 710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 6225,
+                    "endColumn": 88,
+                    "endOffset": 6309
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 715,
+                        "endColumn": 88,
+                        "endOffset": 799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 6314,
+                    "endColumn": 77,
+                    "endOffset": 6387
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 804,
+                        "endColumn": 77,
+                        "endOffset": 877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6392,
+                    "endColumn": 90,
+                    "endOffset": 6478
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 882,
+                        "endColumn": 90,
+                        "endOffset": 968
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 6483,
+                    "endColumn": 88,
+                    "endOffset": 6567
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 973,
+                        "endColumn": 88,
+                        "endOffset": 1057
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6572,
+                    "endColumn": 113,
+                    "endOffset": 6681
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1062,
+                        "endColumn": 113,
+                        "endOffset": 1171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 6686,
+                    "endColumn": 114,
+                    "endOffset": 6796
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1176,
+                        "endColumn": 114,
+                        "endOffset": 1286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 6801,
+                    "endColumn": 88,
+                    "endOffset": 6885
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1291,
+                        "endColumn": 88,
+                        "endOffset": 1375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 6890,
+                    "endColumn": 88,
+                    "endOffset": 6974
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1380,
+                        "endColumn": 88,
+                        "endOffset": 1464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 6979,
+                    "endColumn": 107,
+                    "endOffset": 7082
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1469,
+                        "endColumn": 107,
+                        "endOffset": 1572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 7087,
+                    "endColumn": 122,
+                    "endOffset": 7205
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1577,
+                        "endColumn": 122,
+                        "endOffset": 1695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 7210,
+                    "endColumn": 81,
+                    "endOffset": 7287
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1700,
+                        "endColumn": 81,
+                        "endOffset": 1777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 7292,
+                    "endColumn": 85,
+                    "endOffset": 7373
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1782,
+                        "endColumn": 85,
+                        "endOffset": 1863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 7378,
+                    "endColumn": 195,
+                    "endOffset": 7569
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1868,
+                        "endColumn": 195,
+                        "endOffset": 2059
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 7574,
+                    "endColumn": 88,
+                    "endOffset": 7658
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2064,
+                        "endColumn": 88,
+                        "endOffset": 2148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 7663,
+                    "endColumn": 102,
+                    "endOffset": 7761
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2153,
+                        "endColumn": 102,
+                        "endOffset": 2251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 7766,
+                    "endColumn": 114,
+                    "endOffset": 7876
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2256,
+                        "endColumn": 114,
+                        "endOffset": 2366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 7881,
+                    "endColumn": 115,
+                    "endOffset": 7992
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2371,
+                        "endColumn": 115,
+                        "endOffset": 2482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 7997,
+                    "endColumn": 140,
+                    "endOffset": 8133
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2487,
+                        "endColumn": 140,
+                        "endOffset": 2623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 8138,
+                    "endColumn": 109,
+                    "endOffset": 8243
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 109,
+                        "endOffset": 434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 8248,
+                    "endColumn": 194,
+                    "endOffset": 8438
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 194,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 8443,
+                    "endColumn": 132,
+                    "endOffset": 8571
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 634,
+                        "endColumn": 132,
+                        "endOffset": 762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 8576,
+                    "endColumn": 135,
+                    "endOffset": 8707
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 767,
+                        "endColumn": 135,
+                        "endOffset": 898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 8712,
+                    "endColumn": 216,
+                    "endOffset": 8924
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 216,
+                        "endOffset": 1115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 8929,
+                    "endColumn": 215,
+                    "endOffset": 9140
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1120,
+                        "endColumn": 215,
+                        "endOffset": 1331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 9145,
+                    "endColumn": 134,
+                    "endOffset": 9275
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1336,
+                        "endColumn": 134,
+                        "endOffset": 1466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 9280,
+                    "endColumn": 138,
+                    "endOffset": 9414
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1471,
+                        "endColumn": 138,
+                        "endOffset": 1605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 9419,
+                    "endColumn": 262,
+                    "endOffset": 9677
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\568a3d1dc3de13bdb49342ea5193fbe74afee4d2\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 262,
+                        "endOffset": 589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 9682,
+                    "endColumn": 276,
+                    "endOffset": 9954
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1610,
+                        "endColumn": 276,
+                        "endOffset": 1882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 9959,
+                    "endColumn": 127,
+                    "endOffset": 10082
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1887,
+                        "endColumn": 127,
+                        "endOffset": 2010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 10087,
+                    "endColumn": 110,
+                    "endOffset": 10193
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2015,
+                        "endColumn": 110,
+                        "endOffset": 2121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 10198,
+                    "endColumn": 194,
+                    "endOffset": 10388
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2126,
+                        "endColumn": 194,
+                        "endOffset": 2316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 10393,
+                    "endColumn": 133,
+                    "endOffset": 10522
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2321,
+                        "endColumn": 133,
+                        "endOffset": 2450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 10527,
+                    "endColumn": 223,
+                    "endOffset": 10746
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2455,
+                        "endColumn": 223,
+                        "endOffset": 2674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 10751,
+                    "endColumn": 138,
+                    "endOffset": 10885
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2679,
+                        "endColumn": 138,
+                        "endOffset": 2813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 10890,
+                    "endColumn": 186,
+                    "endOffset": 11072
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2818,
+                        "endColumn": 186,
+                        "endOffset": 3000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 11077,
+                    "endColumn": 96,
+                    "endOffset": 11169
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 3005,
+                        "endColumn": 96,
+                        "endOffset": 3097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 11174,
+                    "endColumn": 98,
+                    "endOffset": 11268
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3102,
+                        "endColumn": 98,
+                        "endOffset": 3196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 11273,
+                    "endColumn": 113,
+                    "endOffset": 11382
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3201,
+                        "endColumn": 113,
+                        "endOffset": 3310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 11387,
+                    "endColumn": 116,
+                    "endOffset": 11499
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 116,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 11504,
+                    "endColumn": 113,
+                    "endOffset": 11613
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 113,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 11618,
+                    "endColumn": 109,
+                    "endOffset": 11723
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 509,
+                        "endColumn": 109,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 11728,
+                    "endColumn": 105,
+                    "endOffset": 11829
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 619,
+                        "endColumn": 105,
+                        "endOffset": 720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 11834,
+                    "endColumn": 131,
+                    "endOffset": 11961
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 725,
+                        "endColumn": 131,
+                        "endOffset": 852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 11966,
+                    "endColumn": 95,
+                    "endOffset": 12057
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 857,
+                        "endColumn": 95,
+                        "endOffset": 948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 12062,
+                    "endColumn": 99,
+                    "endOffset": 12157
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 953,
+                        "endColumn": 99,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 12162,
+                    "endColumn": 119,
+                    "endOffset": 12277
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1053,
+                        "endColumn": 119,
+                        "endOffset": 1168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 12282,
+                    "endColumn": 114,
+                    "endOffset": 12392
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1173,
+                        "endColumn": 114,
+                        "endOffset": 1283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 12397,
+                    "endColumn": 86,
+                    "endOffset": 12479
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1288,
+                        "endColumn": 86,
+                        "endOffset": 1370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 12484,
+                    "endColumn": 98,
+                    "endOffset": 12578
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1375,
+                        "endColumn": 98,
+                        "endOffset": 1469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 12583,
+                    "endColumn": 107,
+                    "endOffset": 12686
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e50e8e0b15faae57faa2b7d0a980658c6c437f44\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 107,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 12691,
+                    "endColumn": 95,
+                    "endOffset": 12782
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e50e8e0b15faae57faa2b7d0a980658c6c437f44\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 389,
+                        "endColumn": 95,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 12787,
+                    "endColumn": 81,
+                    "endOffset": 12864
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2022,
+                        "endColumn": 81,
+                        "endOffset": 2099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 12869,
+                    "endColumn": 100,
+                    "endOffset": 12965
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2104,
+                        "endColumn": 100,
+                        "endOffset": 2200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 12970,
+                    "endColumn": 106,
+                    "endOffset": 13072
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\40918bf502bbf49aa11e9817fab83986f220aa8d\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 106,
+                        "endOffset": 390
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 116,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 116,
+                        "endOffset": 167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 107,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 107,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 330,
+                    "endColumn": 122,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 122,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 453,
+                    "endColumn": 112,
+                    "endOffset": 561
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 112,
+                        "endOffset": 511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 566,
+                    "endColumn": 107,
+                    "endOffset": 669
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 107,
+                        "endOffset": 619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 674,
+                    "endColumn": 84,
+                    "endOffset": 754
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 84,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 759,
+                    "endColumn": 100,
+                    "endOffset": 855
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 100,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 860,
+                    "endColumn": 127,
+                    "endOffset": 983
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 810,
+                        "endColumn": 127,
+                        "endOffset": 933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 988,
+                    "endColumn": 75,
+                    "endOffset": 1059
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 75,
+                        "endOffset": 1009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1064,
+                    "endColumn": 75,
+                    "endOffset": 1135
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 75,
+                        "endOffset": 1085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1140,
+                    "endColumn": 81,
+                    "endOffset": 1217
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 81,
+                        "endOffset": 1167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1222,
+                    "endColumn": 106,
+                    "endOffset": 1324
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endColumn": 106,
+                        "endOffset": 1274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1329,
+                    "endColumn": 99,
+                    "endOffset": 1424
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1279,
+                        "endColumn": 99,
+                        "endOffset": 1374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1429,
+                    "endColumn": 98,
+                    "endOffset": 1523
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1379,
+                        "endColumn": 98,
+                        "endOffset": 1473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1528,
+                    "endColumn": 107,
+                    "endOffset": 1631
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1478,
+                        "endColumn": 107,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1636,
+                    "endColumn": 106,
+                    "endOffset": 1738
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endColumn": 106,
+                        "endOffset": 1688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1743,
+                    "endColumn": 106,
+                    "endOffset": 1845
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1693,
+                        "endColumn": 106,
+                        "endOffset": 1795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1850,
+                    "endColumn": 121,
+                    "endOffset": 1967
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1800,
+                        "endColumn": 121,
+                        "endOffset": 1917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1972,
+                    "endColumn": 99,
+                    "endOffset": 2067
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1922,
+                        "endColumn": 99,
+                        "endOffset": 2017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2072,
+                    "endColumn": 95,
+                    "endOffset": 2163
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 344,
+                        "endColumn": 95,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2168,
+                    "endColumn": 89,
+                    "endOffset": 2253
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 89,
+                        "endOffset": 525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2258,
+                    "endColumn": 116,
+                    "endOffset": 2370
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 116,
+                        "endOffset": 642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2375,
+                    "endColumn": 85,
+                    "endOffset": 2456
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 647,
+                        "endColumn": 85,
+                        "endOffset": 728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2461,
+                    "endColumn": 117,
+                    "endOffset": 2574
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 733,
+                        "endColumn": 117,
+                        "endOffset": 846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2579,
+                    "endColumn": 100,
+                    "endOffset": 2675
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 851,
+                        "endColumn": 100,
+                        "endOffset": 947
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2680,
+                    "endColumn": 78,
+                    "endOffset": 2754
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 952,
+                        "endColumn": 78,
+                        "endOffset": 1026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2759,
+                    "endColumn": 93,
+                    "endOffset": 2848
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1031,
+                        "endColumn": 93,
+                        "endOffset": 1120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2853,
+                    "endColumn": 93,
+                    "endOffset": 2942
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1125,
+                        "endColumn": 93,
+                        "endOffset": 1214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2947,
+                    "endColumn": 107,
+                    "endOffset": 3050
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1219,
+                        "endColumn": 107,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3055,
+                    "endColumn": 77,
+                    "endOffset": 3128
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endColumn": 77,
+                        "endOffset": 1400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3133,
+                    "endColumn": 135,
+                    "endOffset": 3264
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\5adba486c57e44ae1ad2733d7b172f6e255f7841\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 333,
+                        "endColumn": 135,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3269,
+                    "endColumn": 137,
+                    "endOffset": 3402
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\5adba486c57e44ae1ad2733d7b172f6e255f7841\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 469,
+                        "endColumn": 137,
+                        "endOffset": 602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3407,
+                    "endColumn": 98,
+                    "endOffset": 3501
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\5adba486c57e44ae1ad2733d7b172f6e255f7841\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 607,
+                        "endColumn": 98,
+                        "endOffset": 701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3506,
+                    "endColumn": 75,
+                    "endOffset": 3577
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1405,
+                        "endColumn": 75,
+                        "endOffset": 1476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3582,
+                    "endColumn": 78,
+                    "endOffset": 3656
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1481,
+                        "endColumn": 78,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3661,
+                    "endColumn": 79,
+                    "endOffset": 3736
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 79,
+                        "endOffset": 1635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3741,
+                    "endColumn": 94,
+                    "endOffset": 3831
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1640,
+                        "endColumn": 94,
+                        "endOffset": 1730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3836,
+                    "endColumn": 94,
+                    "endOffset": 3926
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1735,
+                        "endColumn": 94,
+                        "endOffset": 1825
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3931,
+                    "endColumn": 116,
+                    "endOffset": 4043
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1830,
+                        "endColumn": 116,
+                        "endOffset": 1942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4048,
+                    "endColumn": 101,
+                    "endOffset": 4145
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1947,
+                        "endColumn": 101,
+                        "endOffset": 2044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4150,
+                    "endColumn": 100,
+                    "endOffset": 4246
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2049,
+                        "endColumn": 100,
+                        "endOffset": 2145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4251,
+                    "endColumn": 75,
+                    "endOffset": 4322
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2150,
+                        "endColumn": 75,
+                        "endOffset": 2221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4327,
+                    "endColumn": 108,
+                    "endOffset": 4431
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2226,
+                        "endColumn": 108,
+                        "endOffset": 2330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4436,
+                    "endColumn": 96,
+                    "endOffset": 4528
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2335,
+                        "endColumn": 96,
+                        "endOffset": 2427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4533,
+                    "endColumn": 100,
+                    "endOffset": 4629
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2432,
+                        "endColumn": 100,
+                        "endOffset": 2528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4634,
+                    "endColumn": 143,
+                    "endOffset": 4773
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2533,
+                        "endColumn": 143,
+                        "endOffset": 2672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4778,
+                    "endColumn": 135,
+                    "endOffset": 4909
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2677,
+                        "endColumn": 135,
+                        "endOffset": 2808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4914,
+                    "endColumn": 134,
+                    "endOffset": 5044
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2813,
+                        "endColumn": 134,
+                        "endOffset": 2943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5049,
+                    "endColumn": 130,
+                    "endOffset": 5175
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2948,
+                        "endColumn": 130,
+                        "endOffset": 3074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5180,
+                    "endColumn": 97,
+                    "endOffset": 5273
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 3079,
+                        "endColumn": 97,
+                        "endOffset": 3172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5278,
+                    "endColumn": 95,
+                    "endOffset": 5369
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 3177,
+                        "endColumn": 95,
+                        "endOffset": 3268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5374,
+                    "endColumn": 105,
+                    "endOffset": 5475
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 3273,
+                        "endColumn": 105,
+                        "endOffset": 3374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5480,
+                    "endColumn": 84,
+                    "endOffset": 5560
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1a95b8d062c18719f451001517846258f291bde5\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3379,
+                        "endColumn": 84,
+                        "endOffset": 3459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5565,
+                    "endColumn": 163,
+                    "endOffset": 5724
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 163,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5729,
+                    "endColumn": 142,
+                    "endOffset": 5867
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 142,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5872,
+                    "endColumn": 152,
+                    "endOffset": 6020
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 362,
+                        "endColumn": 152,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6025,
+                    "endColumn": 114,
+                    "endOffset": 6135
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 515,
+                        "endColumn": 114,
+                        "endOffset": 625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6140,
+                    "endColumn": 84,
+                    "endOffset": 6220
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 630,
+                        "endColumn": 84,
+                        "endOffset": 710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 6225,
+                    "endColumn": 88,
+                    "endOffset": 6309
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 715,
+                        "endColumn": 88,
+                        "endOffset": 799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 6314,
+                    "endColumn": 77,
+                    "endOffset": 6387
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 804,
+                        "endColumn": 77,
+                        "endOffset": 877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6392,
+                    "endColumn": 90,
+                    "endOffset": 6478
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 882,
+                        "endColumn": 90,
+                        "endOffset": 968
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 6483,
+                    "endColumn": 88,
+                    "endOffset": 6567
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 973,
+                        "endColumn": 88,
+                        "endOffset": 1057
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6572,
+                    "endColumn": 113,
+                    "endOffset": 6681
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1062,
+                        "endColumn": 113,
+                        "endOffset": 1171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 6686,
+                    "endColumn": 114,
+                    "endOffset": 6796
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1176,
+                        "endColumn": 114,
+                        "endOffset": 1286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 6801,
+                    "endColumn": 88,
+                    "endOffset": 6885
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1291,
+                        "endColumn": 88,
+                        "endOffset": 1375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 6890,
+                    "endColumn": 88,
+                    "endOffset": 6974
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1380,
+                        "endColumn": 88,
+                        "endOffset": 1464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 6979,
+                    "endColumn": 107,
+                    "endOffset": 7082
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1469,
+                        "endColumn": 107,
+                        "endOffset": 1572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 7087,
+                    "endColumn": 122,
+                    "endOffset": 7205
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1577,
+                        "endColumn": 122,
+                        "endOffset": 1695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 7210,
+                    "endColumn": 81,
+                    "endOffset": 7287
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1700,
+                        "endColumn": 81,
+                        "endOffset": 1777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 7292,
+                    "endColumn": 85,
+                    "endOffset": 7373
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1782,
+                        "endColumn": 85,
+                        "endOffset": 1863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 7378,
+                    "endColumn": 195,
+                    "endOffset": 7569
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1868,
+                        "endColumn": 195,
+                        "endOffset": 2059
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 7574,
+                    "endColumn": 88,
+                    "endOffset": 7658
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2064,
+                        "endColumn": 88,
+                        "endOffset": 2148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 7663,
+                    "endColumn": 102,
+                    "endOffset": 7761
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2153,
+                        "endColumn": 102,
+                        "endOffset": 2251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 7766,
+                    "endColumn": 114,
+                    "endOffset": 7876
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2256,
+                        "endColumn": 114,
+                        "endOffset": 2366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 7881,
+                    "endColumn": 115,
+                    "endOffset": 7992
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2371,
+                        "endColumn": 115,
+                        "endOffset": 2482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 7997,
+                    "endColumn": 140,
+                    "endOffset": 8133
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\1d9a32781a1d9df380a608f7f47bbbaa419c32c3\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2487,
+                        "endColumn": 140,
+                        "endOffset": 2623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 8138,
+                    "endColumn": 109,
+                    "endOffset": 8243
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 109,
+                        "endOffset": 434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 8248,
+                    "endColumn": 194,
+                    "endOffset": 8438
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 194,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 8443,
+                    "endColumn": 132,
+                    "endOffset": 8571
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 634,
+                        "endColumn": 132,
+                        "endOffset": 762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 8576,
+                    "endColumn": 135,
+                    "endOffset": 8707
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 767,
+                        "endColumn": 135,
+                        "endOffset": 898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 8712,
+                    "endColumn": 216,
+                    "endOffset": 8924
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 216,
+                        "endOffset": 1115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 8929,
+                    "endColumn": 215,
+                    "endOffset": 9140
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1120,
+                        "endColumn": 215,
+                        "endOffset": 1331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 9145,
+                    "endColumn": 134,
+                    "endOffset": 9275
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1336,
+                        "endColumn": 134,
+                        "endOffset": 1466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 9280,
+                    "endColumn": 138,
+                    "endOffset": 9414
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1471,
+                        "endColumn": 138,
+                        "endOffset": 1605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 9419,
+                    "endColumn": 262,
+                    "endOffset": 9677
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\568a3d1dc3de13bdb49342ea5193fbe74afee4d2\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 262,
+                        "endOffset": 589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 9682,
+                    "endColumn": 276,
+                    "endOffset": 9954
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1610,
+                        "endColumn": 276,
+                        "endOffset": 1882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 9959,
+                    "endColumn": 127,
+                    "endOffset": 10082
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1887,
+                        "endColumn": 127,
+                        "endOffset": 2010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 10087,
+                    "endColumn": 110,
+                    "endOffset": 10193
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2015,
+                        "endColumn": 110,
+                        "endOffset": 2121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 10198,
+                    "endColumn": 194,
+                    "endOffset": 10388
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2126,
+                        "endColumn": 194,
+                        "endOffset": 2316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 10393,
+                    "endColumn": 133,
+                    "endOffset": 10522
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2321,
+                        "endColumn": 133,
+                        "endOffset": 2450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 10527,
+                    "endColumn": 223,
+                    "endOffset": 10746
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2455,
+                        "endColumn": 223,
+                        "endOffset": 2674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 10751,
+                    "endColumn": 138,
+                    "endOffset": 10885
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2679,
+                        "endColumn": 138,
+                        "endOffset": 2813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 10890,
+                    "endColumn": 186,
+                    "endOffset": 11072
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2818,
+                        "endColumn": 186,
+                        "endOffset": 3000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 11077,
+                    "endColumn": 96,
+                    "endOffset": 11169
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 3005,
+                        "endColumn": 96,
+                        "endOffset": 3097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 11174,
+                    "endColumn": 98,
+                    "endOffset": 11268
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3102,
+                        "endColumn": 98,
+                        "endOffset": 3196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 11273,
+                    "endColumn": 113,
+                    "endOffset": 11382
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3201,
+                        "endColumn": 113,
+                        "endOffset": 3310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 11387,
+                    "endColumn": 116,
+                    "endOffset": 11499
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 116,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 11504,
+                    "endColumn": 113,
+                    "endOffset": 11613
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 113,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 11618,
+                    "endColumn": 109,
+                    "endOffset": 11723
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 509,
+                        "endColumn": 109,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 11728,
+                    "endColumn": 105,
+                    "endOffset": 11829
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 619,
+                        "endColumn": 105,
+                        "endOffset": 720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 11834,
+                    "endColumn": 131,
+                    "endOffset": 11961
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 725,
+                        "endColumn": 131,
+                        "endOffset": 852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 11966,
+                    "endColumn": 95,
+                    "endOffset": 12057
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 857,
+                        "endColumn": 95,
+                        "endOffset": 948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 12062,
+                    "endColumn": 99,
+                    "endOffset": 12157
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 953,
+                        "endColumn": 99,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 12162,
+                    "endColumn": 119,
+                    "endOffset": 12277
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1053,
+                        "endColumn": 119,
+                        "endOffset": 1168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 12282,
+                    "endColumn": 114,
+                    "endOffset": 12392
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1173,
+                        "endColumn": 114,
+                        "endOffset": 1283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 12397,
+                    "endColumn": 86,
+                    "endOffset": 12479
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1288,
+                        "endColumn": 86,
+                        "endOffset": 1370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 12484,
+                    "endColumn": 98,
+                    "endOffset": 12578
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1375,
+                        "endColumn": 98,
+                        "endOffset": 1469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 12583,
+                    "endColumn": 107,
+                    "endOffset": 12686
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e50e8e0b15faae57faa2b7d0a980658c6c437f44\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 107,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 12691,
+                    "endColumn": 95,
+                    "endOffset": 12782
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\e50e8e0b15faae57faa2b7d0a980658c6c437f44\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 389,
+                        "endColumn": 95,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 12787,
+                    "endColumn": 81,
+                    "endOffset": 12864
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2022,
+                        "endColumn": 81,
+                        "endOffset": 2099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 12869,
+                    "endColumn": 100,
+                    "endOffset": 12965
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\f3ce25a918452852fa653d33416c7a220fd4bd10\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2104,
+                        "endColumn": 100,
+                        "endOffset": 2200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 12970,
+                    "endColumn": 106,
+                    "endOffset": 13072
+                },
+                "from": {
+                    "file": "C:\\Users\\ddopik\\.android\\build-cache\\40918bf502bbf49aa11e9817fab83986f220aa8d\\output\\res\\values-es\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 106,
+                        "endOffset": 390
+                    }
+                }
+            }
+        ]
+    }
+]

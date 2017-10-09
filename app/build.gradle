@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.example.ddopik.scopelistner"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:animated-vector-drawable:25.3.1'
+    compile 'com.android.support:mediarouter-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+
+
+
+//    ///faceBook Sdk
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+//    compile 'com.android.support:multidex:1.0.0'
+    ////butterKnif
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+///Dagger
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.8'
+    compile 'com.google.dagger:dagger:2.8'
+    provided 'javax.annotation:jsr250-api:1.0'
+// Glide image library
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    ///Styled btn
+    compile 'com.github.jd-alexander:LikeButton:0.2.0'
+ ////////////////////
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile('com.squareup.retrofit2:converter-simplexml:2.0.0-beta3') {
+        exclude group: 'xpp3', module: 'xpp3'
+        exclude group: 'stax', module: 'stax-api'
+        exclude group: 'stax', module: 'stax'
+    }
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+//RxJava dependencies
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.0'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.2'
+    compile 'org.reactivestreams:reactive-streams:1.0.0'
+    //Volly
+    compile 'com.android.volley:volley:1.0.0'
+    testCompile 'junit:junit:4.12'
+    provided 'javax.annotation:jsr250-api:1.0'
+    ///stetho
+    compile 'com.facebook.stetho:stetho:1.4.1'
+    compile 'com.uphyca:stetho_realm:2.0.0'
+    //Magnifier
+    compile 'com.google.android.gms:play-services:10.2.1'
+    ////FireBase
+    compile 'com.google.firebase:firebase-core:10.2.1'
+    compile 'com.google.firebase:firebase-messaging:10.2.1'
+////My custom littleLibrary
+    compile project(":AssestLib-module")
+}
+//apply plugin: 'com.google.gms.google-services'
