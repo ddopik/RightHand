@@ -47,37 +47,37 @@ public class FragmentOne extends Fragment {
         mainView = inflater.inflate(R.layout.fragment_one, container, false);
         unbinder = ButterKnife.bind(this.mainView);
 
-        if (Build.VERSION.SDK_INT >= 23) {
-            permationController = new PermationController(getActivity()) {
-                @Override
-                public ExternalPermeation_Cancel_Method setExternalPermeation_Cancel_Method() {
-
-                    return new ExternalPermeation_Cancel_Method() {
-                        @Override
-                        public void ExternalPermeation_Cancel_Method() {
-                            Toast.makeText(getActivity(), "Horaiiiiii", Toast.LENGTH_SHORT).show();
-                            Log.e("FragmentOne", "TraccerHere------------->Horaaaai");
-                        }
-                    };
-                }
-            };
+//        if (Build.VERSION.SDK_INT >= 23) {
+//            permationController = new PermationController(getActivity()) {
+//                @Override
+//                public ExternalPermeation_Cancel_Method setExternalPermeation_Cancel_Method() {
+//
+//                    return new ExternalPermeation_Cancel_Method() {
+//                        @Override
+//                        public void ExternalPermeation_Cancel_Method() {
+//                            Toast.makeText(getActivity(), "Horaiiiiii", Toast.LENGTH_SHORT).show();
+//                            Log.e("FragmentOne", "TraccerHere------------->Horaaaai");
+//                        }
+//                    };
+//                }
+//            };
 
 //            permationController.askSinglePermation(android.Manifest.permission.WRITE_EXTERNAL_STORAGE,"message",101);
 
-           List<HashMap<String,String>> permations=new ArrayList<HashMap<String, String>>();
-            HashMap<String,String> permatiosList=new HashMap<String, String>();
-            permatiosList.put("permeation",android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
-            permatiosList.put("permeationCode","100");
-            permations.add(permatiosList);
-
-            HashMap<String,String> permatiosList2=new HashMap<String, String>();
-            permatiosList2.put("permeation",Manifest.permission.READ_CONTACTS);
-            permatiosList2.put("permeationCode","102");
-            permations.add(permatiosList2);
-            permationController.askMuiltyPermeation(permations,"in order to use this we need youur apprval");
-        } else {
-            // Pre-Marshmallow
-        }
+//           List<HashMap<String,String>> permations=new ArrayList<HashMap<String, String>>();
+//            HashMap<String,String> permatiosList=new HashMap<String, String>();
+//            permatiosList.put("permeation",android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
+//            permatiosList.put("permeationCode","100");
+//            permations.add(permatiosList);
+//
+//            HashMap<String,String> permatiosList2=new HashMap<String, String>();
+//            permatiosList2.put("permeation",Manifest.permission.READ_CONTACTS);
+//            permatiosList2.put("permeationCode","102");
+//            permations.add(permatiosList2);
+//            permationController.askMuiltyPermeation(permations,"in order to use this we need youur apprval");
+//        } else {
+//            // Pre-Marshmallow
+//        }
 
 
         return mainView;
