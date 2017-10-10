@@ -89,7 +89,6 @@ public class FragmentTwo extends Fragment implements RecognitionListener {
 
         try {
             startActivityForResult(voicerecogize, REQ_CODE_SPEECH_INPUT);
-//            startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
         } catch (ActivityNotFoundException a) {
             Toast.makeText(getApplicationContext(), getString(R.string.speech_not_supported), Toast.LENGTH_SHORT).show();
         }

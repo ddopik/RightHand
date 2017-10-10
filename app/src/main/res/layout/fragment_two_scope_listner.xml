@@ -6,6 +6,25 @@
     android:background="@drawable/bg_gradient"
     android:orientation="vertical" >
 
+    <FrameLayout
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/single_item"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </FrameLayout>
     <TextView
         android:id="@+id/txtSpeechInput"
         android:layout_width="wrap_content"
@@ -15,7 +34,7 @@
         android:layout_marginTop="100dp"
         android:textColor="@color/white"
         android:textSize="26dp"
-        android:textStyle="normal" />
+        android:textStyle="normal"  android:visibility="gone"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -24,7 +43,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="60dp"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+       >
 
         <ImageButton
             android:id="@+id/btnSpeak"
