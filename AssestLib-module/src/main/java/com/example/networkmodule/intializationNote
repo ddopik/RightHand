@@ -17,9 +17,10 @@ dependencies {
 =========================
  ----->   this added to add inside project gradle
           dependencies {
-               classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+                 compile 'com.jakewharton:butterknife:8.5.1'
+                 annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
           }
- ----->  this added to the top of App gradle apply plugin: 'com.jakewharton.butterknife'
+ ----->  Note that you can't get use of butterknife that included in assest module
 
 
 ====================================================================================================

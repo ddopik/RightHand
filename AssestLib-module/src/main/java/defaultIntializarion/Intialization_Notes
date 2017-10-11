@@ -1,0 +1,14 @@
+======================
+For  AppConfig class==
+======================
+
+In order to use Realm instance :-
+================================
+1-- Add the class path dependency to the project level build.gradle file.
+    ---classpath 'com.google.gms:google-services:3.0.0' or what ever vetion you want
+
+In order to use Steatho :-
+========================
+-- Add the class path dependency to the project level build.gradle file.
+            maven { url 'https://github.com/uPhyca/stetho-realm/raw/master/maven-repo' }
+            and extend App config class of call intializeSteatho();

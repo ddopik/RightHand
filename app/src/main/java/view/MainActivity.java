@@ -23,6 +23,7 @@ import UiComponanets.simleViewPager.ViewPagerActivity;
 import UiComponanets.simleViewPager.ViewPagerAdapter;
 import butterknife.BindView;
 
+
 public class MainActivity extends ViewPagerActivity {
     @BindView(R.id.toolbar)
     public Toolbar toolbar;
@@ -38,7 +39,7 @@ public class MainActivity extends ViewPagerActivity {
 
         SharedPreferences permissionStatus = getSharedPreferences("permissionStatus", MODE_PRIVATE);
         Map<String, ?> ha = permissionStatus.getAll();
-        return;
+
 
     }
 
