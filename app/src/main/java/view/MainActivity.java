@@ -13,7 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.widget.Toast;
 
 import com.example.ddopik.scopelistner.R;
-import com.example.networkmodule.permationsController.PermationController;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -88,37 +88,9 @@ public class MainActivity extends ViewPagerActivity {
     }
 
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == FragmentOne.REQUEST_PERMISSION_SETTING) {
-            if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "Call back from Sitting Activity", Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
-        if (requestCode == PermationController.REQUEST_Muilty_PERMISSION && grantResults.length > 0) {
-            for (int i = 0; i < permissions.length; i++) {
-                if (permissions[i].equals(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) && grantResults[i] == PackageManager.PERMISSION_GRANTED) {
-                    SharedPreferences permissionStatus = getSharedPreferences("permissionStatus", MODE_PRIVATE);
-                    SharedPreferences.Editor editor = permissionStatus.edit();
-                    editor.putBoolean(permissions[i], true);
-                    editor.commit();
-                } else if (permissions[i].equals(FragmentOne.REQUEST_PERMISSION_Contact)  && grantResults[i] == PackageManager.PERMISSION_GRANTED) {
-                    SharedPreferences permissionStatus = getSharedPreferences("permissionStatus", MODE_PRIVATE);
-                    SharedPreferences.Editor editor = permissionStatus.edit();
-                    editor.putBoolean(permissions[i], true);
-                    editor.commit();
-                }
-            }
-        }
 
-    }
 
 
 }
