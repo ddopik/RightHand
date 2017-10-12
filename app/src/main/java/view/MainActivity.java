@@ -37,8 +37,7 @@ public class MainActivity extends ViewPagerActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        SharedPreferences permissionStatus = getSharedPreferences("permissionStatus", MODE_PRIVATE);
-        Map<String, ?> ha = permissionStatus.getAll();
+
 
 
     }

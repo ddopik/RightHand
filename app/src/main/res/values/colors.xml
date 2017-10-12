@@ -8,4 +8,8 @@
     <color name="bg_gradient_end">#6b394c</color>
     <color name="item_color_1">#786c70</color>
     <color name="item_color_2">#dfd6d9</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+
 </resources>

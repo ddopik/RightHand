@@ -68,12 +68,12 @@
         "source": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\drawable-hdpi\\ic_media_route_on_mono_dark.png"
     },
     {
-        "merged": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\ic_media_route_on_1_mono_dark.png",
-        "source": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\drawable-hdpi\\ic_media_route_on_1_mono_dark.png"
-    },
-    {
         "merged": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\ic_setting_dark.png",
         "source": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\drawable-hdpi\\ic_setting_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\ic_media_route_on_1_mono_dark.png",
+        "source": "C:\\Users\\ddopik\\.android\\build-cache\\65609762ba2443d20a157ae901e45d9aca659911\\output\\res\\drawable-hdpi\\ic_media_route_on_1_mono_dark.png"
     },
     {
         "merged": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\ic_cast_on_0_light.png",

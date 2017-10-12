@@ -57,7 +57,7 @@ public class AppConfig extends Application  {
         Realm.init(app); // Initialize Realm. Should only be done once when the application starts.
         RealmConfiguration realmConfig = new RealmConfiguration.Builder().build();
 
-//        Realm.deleteRealm(realmConfig); // Delete Realm between app restarts. #################
+        Realm.deleteRealm(realmConfig); // Delete Realm between app restarts. #################
 
 
         Realm.setDefaultConfiguration(realmConfig);

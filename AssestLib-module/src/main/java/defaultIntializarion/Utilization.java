@@ -1,5 +1,9 @@
 package defaultIntializarion;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 /**
  * Created by ddopik on 10/11/2017.
  */
@@ -17,5 +21,15 @@ public class Utilization {
     public Class<?> getClassInstance(String className) throws ClassNotFoundException {
 
         return Class.forName(className);
+    }
+
+    public String getCurrentDate()
+    {
+        Calendar c = Calendar.getInstance();
+        System.out.println("Current time => " + c.getTime());
+
+        SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
+        String formattedDate = df.format(c.getTime());
+        return formattedDate;
     }
 }

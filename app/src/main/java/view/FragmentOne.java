@@ -1,17 +1,20 @@
 package view;
 
-import android.Manifest;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
@@ -22,12 +25,16 @@ import com.example.ddopik.scopelistner.R;
 import com.example.networkmodule.permationsController.PermationController;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import defaultIntializarion.AppConfig;
+import io.realm.RealmResults;
+import model.ScopeListenerModel;
+import model.tabels.SingleItem;
+import presenter.Adapters.ItemsAdapter;
+import presenter.FragmentOnePresenter;
 
 import static android.app.Activity.RESULT_OK;
 import static com.facebook.FacebookSdk.getApplicationContext;
@@ -40,19 +47,30 @@ import static com.facebook.FacebookSdk.getApplicationContext;
 public class FragmentOne extends Fragment implements RecognitionListener {
 
     private final int REQ_CODE_SPEECH_INPUT = 100;
+    @BindView(R.id.items_recycler_view)
+    public RecyclerView recyclerView;
     @BindView(R.id.txtSpeechInput)
     TextView txtSpeechInput;
     @BindView(R.id.btnSpeak)
     ImageButton btnSpeak;
+    private RealmResults<SingleItem> itemsList;
     private Unbinder unbinder;
     private View mainView;
     private PermationController permationController;
+    private FragmentOnePresenter fragmentOnePresenter;
 
 
+    private ItemsAdapter itemsAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        fragmentOnePresenter = new FragmentOnePresenter();
+        fragmentOnePresenter.saveNewItem();
+        itemsList=new ScopeListenerModel(AppConfig.realm).getFullItems();
+        itemsAdapter = new ItemsAdapter(itemsList,getActivity());
+
+
     }
 
     @Override
@@ -62,13 +80,14 @@ public class FragmentOne extends Fragment implements RecognitionListener {
         unbinder = ButterKnife.bind(this, mainView);
 
 
-        btnSpeak.setOnClickListener(new View.OnClickListener() {
+        recyclerView.setHasFixedSize(true);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(itemsAdapter);
 
-            @Override
-            public void onClick(View v) {
-                promptSpeechInput();
-            }
-        });
+
         askFor_mic_permation();
         return mainView;
     }

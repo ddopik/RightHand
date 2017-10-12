@@ -4,8 +4,18 @@ For  AppConfig class==
 
 In order to use Realm instance :-
 ================================
-1-- Add the class path dependency to the project level build.gradle file.
-    ---classpath 'com.google.gms:google-services:3.0.0' or what ever vetion you want
+
+Step 1:
+        Add the class path dependency to the project level build.gradle file.dependencies
+        {
+           classpath "io.realm:realm-gradle-plugin:4.0.0.pre.rc1"
+           //or what ever vertion you are using
+        }
+
+        Step 2: Apply the realm-android plugin to the top of the application level build.gradle file.
+        apply plugin: 'realm-android'
+
+    Note : you can't use Realm Library that included through this Library
 
 In order to use Steatho :-
 ========================

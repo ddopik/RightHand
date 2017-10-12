@@ -1,4 +1,4 @@
-package model;
+package model.tabels;
 
 import java.util.Date;
 
@@ -16,7 +16,7 @@ public class SingleItem extends RealmObject {
     private String itemName;
     private String itemPrice;
     private boolean itemExistence;
-    private Date itemUpdate;
+    private String itemUpdate;
 
     public int getItemId() {
         return itemId;
@@ -50,11 +50,11 @@ public class SingleItem extends RealmObject {
         this.itemExistence = itemExistence;
     }
 
-    public Date getItemUpdate() {
+    public String getItemUpdate() {
         return itemUpdate;
     }
 
-    public void setItemUpdate(Date itemUpdate) {
+    public void setItemUpdate(String itemUpdate) {
         this.itemUpdate = itemUpdate;
     }
 
