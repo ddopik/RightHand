@@ -11,4 +11,12 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="AppTheme.alertDialogThem">
+        <item name="alertDialogProTheme">@style/Theme.AlertDialogPro.Material.Light</item>
+        <item name="adpButtonBarPositiveButtonStyle">@style/AppTheme.AlerrDialogButton</item>
+    </style>
+    <style name="AppTheme.AlerrDialogButton" parent="Widget.AlertDialogPro.Material.Light.Button">
+        <item name="android:textColor">@color/adp_positive_button_color</item>
+    </style>
+
 </resources>

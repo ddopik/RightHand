@@ -1,6 +1,9 @@
 package presenter.Adapters;
 
+import android.app.Activity;
+import android.app.FragmentManager;
 import android.content.Context;
+
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,6 +19,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import io.realm.RealmResults;
 import model.tabels.SingleItem;
+import view.SingleItemDialogFragment;
 
 /**
  * Created by ddopik on 10/12/2017.
@@ -82,6 +86,9 @@ public class ItemsAdapter extends  RecyclerView.Adapter<ItemsAdapter.SingleItem_
         @OnClick(R.id.single_item_row)
         public void singleRowEvent()
         {
+            FragmentManager fm =  ((Activity) context).getFragmentManager();
+            SingleItemDialogFragment dialogFragment = new SingleItemDialogFragment();
+            dialogFragment.show(fm, "SingleItemDialogFragment");
             Toast.makeText(context,"--->  "+item_name.getText(),Toast.LENGTH_SHORT).show();
         }
 

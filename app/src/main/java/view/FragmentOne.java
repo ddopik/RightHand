@@ -14,6 +14,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -69,10 +71,22 @@ public class FragmentOne extends Fragment implements RecognitionListener {
         fragmentOnePresenter.saveNewItem();
         itemsList=new ScopeListenerModel(AppConfig.realm).getFullItems();
         itemsAdapter = new ItemsAdapter(itemsList,getActivity());
+        setHasOptionsMenu(true);
 
 
     }
-
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater menuInflater) {
+        menuInflater.inflate(R.menu.fragment_1_menu, menu);
+        super.onCreateOptionsMenu(menu, menuInflater);
+    }
+    //In your Fragment
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        setHasOptionsMenu(isVisible());
+//
+//    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
