@@ -15,9 +15,8 @@ public class RealmSingleton {
     private Context appContext;
     private Realm realm;
 
-    public RealmSingleton(Realm realm)
-    {
-        this.realm=realm;
+    public RealmSingleton(Realm realm) {
+        this.realm = realm;
     }
 
     //    public static <T> List<T> toList(String json, Class<T> type,  ObjectMapperProperties objectMapperProperties)
@@ -29,7 +28,18 @@ public class RealmSingleton {
     }
 
     public <E extends RealmObject> E getSingleRealmItem(Class<E> className, String id_Key, int id) {
-        return realm.where(className).equalTo("id_Key", id).findFirst();
+        return realm.where(className).equalTo(id_Key, id).findFirst();
     }
 
+    public int getLastID(Class className, String id_key) {
+        // increment index
+        Number currentIdNum = realm.where(className).max(id_key);
+        int nextId;
+        if (currentIdNum == null) {
+            nextId = 1;
+        } else {
+            nextId = currentIdNum.intValue() + 1;
+        }
+        return nextId;
+    }
 }

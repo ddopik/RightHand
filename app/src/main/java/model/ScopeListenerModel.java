@@ -1,7 +1,6 @@
 package model;
 
 import io.realm.Realm;
-import io.realm.RealmObject;
 import io.realm.RealmResults;
 import model.tabels.SingleItem;
 
@@ -12,15 +11,15 @@ import model.tabels.SingleItem;
 public class ScopeListenerModel {
     private Realm realm;
 
-    public ScopeListenerModel(Realm realm)
-    {
-        this.realm=realm;
+    public ScopeListenerModel(Realm realm) {
+        this.realm = realm;
     }
 
 
-public RealmResults<SingleItem> getFullItems()
-{
-    return realm.where(SingleItem.class).findAll();
-}
+    public RealmResults<SingleItem> getFullItems() {
+        return realm.where(SingleItem.class).findAll();
+    }
+
+
 
 }

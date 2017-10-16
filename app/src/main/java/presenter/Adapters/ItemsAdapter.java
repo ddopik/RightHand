@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.content.Context;
 
+import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -19,6 +20,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import io.realm.RealmResults;
 import model.tabels.SingleItem;
+import presenter.FragmentOnePresenter;
 import view.SingleItemDialogFragment;
 
 /**
@@ -29,6 +31,7 @@ public class ItemsAdapter extends  RecyclerView.Adapter<ItemsAdapter.SingleItem_
 
     private RealmResults<SingleItem> itemsList;
     private Context context;
+    private FragmentOnePresenter fragmentOnePresenter;
     public ItemsAdapter(RealmResults<SingleItem> singleItems,Context context)
     {
         this.itemsList =singleItems;
@@ -38,12 +41,14 @@ public class ItemsAdapter extends  RecyclerView.Adapter<ItemsAdapter.SingleItem_
     @Override
     public SingleItem_ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_single_row, parent, false);
+        fragmentOnePresenter =new FragmentOnePresenter(context);
         return new SingleItem_ViewHolder(itemView);
     }
 
     @Override
     public void onBindViewHolder(SingleItem_ViewHolder holder, int position) {
         SingleItem singleItem = itemsList.get(position);
+        holder.item_id.setText(singleItem.getItemId()+"");
         holder.item_name.setText(singleItem.getItemName());
         holder.item_price.setText(singleItem.getItemPrice());
         holder.item_existence.setText(singleItem.isItemExistence()+"");
@@ -86,10 +91,8 @@ public class ItemsAdapter extends  RecyclerView.Adapter<ItemsAdapter.SingleItem_
         @OnClick(R.id.single_item_row)
         public void singleRowEvent()
         {
-            FragmentManager fm =  ((Activity) context).getFragmentManager();
-            SingleItemDialogFragment dialogFragment = new SingleItemDialogFragment();
-            dialogFragment.show(fm, "SingleItemDialogFragment");
-            Toast.makeText(context,"--->  "+item_name.getText(),Toast.LENGTH_SHORT).show();
+            fragmentOnePresenter.launchSingleItemDialogFragment(Integer.parseInt(item_id.getText().toString()));
+
         }
 
 

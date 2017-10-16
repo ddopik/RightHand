@@ -16,7 +16,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MotionEvent;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
@@ -67,29 +67,20 @@ public class FragmentOne extends Fragment implements RecognitionListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        fragmentOnePresenter = new FragmentOnePresenter();
+        fragmentOnePresenter = new FragmentOnePresenter(getActivity());
         fragmentOnePresenter.saveNewItem();
-        itemsList=new ScopeListenerModel(AppConfig.realm).getFullItems();
-        itemsAdapter = new ItemsAdapter(itemsList,getActivity());
+        itemsList = new ScopeListenerModel(AppConfig.realm).getFullItems();
+        itemsAdapter = new ItemsAdapter(itemsList, getActivity());
         setHasOptionsMenu(true);
 
 
     }
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater menuInflater) {
-        menuInflater.inflate(R.menu.fragment_1_menu, menu);
-        super.onCreateOptionsMenu(menu, menuInflater);
-    }
-    //In your Fragment
-//    @Override
-//    public void onResume() {
-//        super.onResume();
-//        setHasOptionsMenu(isVisible());
-//
-//    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        Log.e("FragmentOne","FragmentOne ---->onCreateView()");
         mainView = inflater.inflate(R.layout.fragment_two_scope_listner, container, false);
         unbinder = ButterKnife.bind(this, mainView);
 
@@ -104,6 +95,27 @@ public class FragmentOne extends Fragment implements RecognitionListener {
 
         askFor_mic_permation();
         return mainView;
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater menuInflater) {
+        menuInflater.inflate(R.menu.fragment_1_menu, menu);
+        super.onCreateOptionsMenu(menu, menuInflater);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.add_new:
+                 fragmentOnePresenter.launchSingleItemDialogFragment();
+                return true;
+            case R.id.edit:
+                // TODO put your code here to respond to the button tap
+                Toast.makeText(getActivity(), "ADD!", Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     private void promptSpeechInput() {
