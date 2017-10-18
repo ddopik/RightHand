@@ -37,7 +37,16 @@ public class ItemsAdapter extends  RecyclerView.Adapter<ItemsAdapter.SingleItem_
         this.itemsList =singleItems;
         this.context=context;
     }
+    public ItemsAdapter(Context context)
+    {
 
+        this.context=context;
+    }
+
+    public void setItemsList(RealmResults<SingleItem> singleItems)
+    {
+        this.itemsList=singleItems;
+    }
     @Override
     public SingleItem_ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_single_row, parent, false);

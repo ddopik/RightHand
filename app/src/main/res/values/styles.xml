@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="searchViewStyle">@style/SearchView</item>
     </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -18,5 +19,13 @@
     <style name="AppTheme.AlerrDialogButton" parent="Widget.AlertDialogPro.Material.Light.Button">
         <item name="android:textColor">@color/adp_positive_button_color</item>
     </style>
+
+
+
+    <style name="SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:maxWidth">@dimen/maxSize</item>
+    </style>
+
+
 
 </resources>

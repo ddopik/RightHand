@@ -1,27 +1,27 @@
 package view;
 
 
+import android.app.SearchManager;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
-import android.widget.Toast;
 
 import com.example.ddopik.scopelistner.R;
+import com.google.android.gms.wearable.MessageEvent;
 
+import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import UiComponanets.simleViewPager.ViewPagerActivity;
 import UiComponanets.simleViewPager.ViewPagerAdapter;
 import butterknife.BindView;
+import presenter.pojoClasses.SearchMessage;
 
 
 public class MainActivity extends ViewPagerActivity {
@@ -37,9 +37,9 @@ public class MainActivity extends ViewPagerActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
-
-
+        ActionBar actionBar=getSupportActionBar();
+        actionBar.setDisplayShowTitleEnabled(true);
+        actionBar.setDisplayShowCustomEnabled(true);
     }
 
     @Override
@@ -90,9 +90,8 @@ public class MainActivity extends ViewPagerActivity {
 
 
 
-
-
 }
+
 
 //        switch (requestCode) {
 //            case FragmentOne.EXTERNAL_STORAGE_PERMISSION_CONSTANT:

@@ -9,6 +9,7 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -36,6 +37,7 @@ dependencies {
     compile 'com.github.fengdai:alertdialogpro-theme-material:0.2.6'
     testCompile 'junit:junit:4.12'
 
+    compile 'com.android.support:multidex:1.0.1'
     ///butterKnif
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
@@ -44,12 +46,13 @@ dependencies {
     compile 'io.reactivex.rxjava2:rxandroid:2.0.0'
     compile 'io.reactivex.rxjava2:rxjava:2.0.2'
     compile 'org.reactivestreams:reactive-streams:1.0.0'
-
+/// Event bus
+    compile 'org.greenrobot:eventbus:3.0.0'
     //Magnifier
     compile 'com.google.android.gms:play-services:10.2.1'
     ////FireBase
-    compile 'com.google.firebase:firebase-core:10.2.1'
-    compile 'com.google.firebase:firebase-messaging:10.2.1'
+//    compile 'com.google.firebase:firebase-core:10.2.1'
+//    compile 'com.google.firebase:firebase-messaging:10.2.1'
 ////My custom littleLibrary
     compile project(":AssestLib-module")
 }

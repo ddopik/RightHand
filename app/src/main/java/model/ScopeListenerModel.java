@@ -20,6 +20,12 @@ public class ScopeListenerModel {
         return realm.where(SingleItem.class).findAll();
     }
 
-
+    public RealmResults<SingleItem> querySingleItem(String query)
+    {
+        // *char  ---> match Only if there is any characters before it
+        // *char* ---> match Only if there is any characters before it and any character after it
+        // char*  ---> match Only if there is any characters after it
+        return realm.where(SingleItem.class).like("itemName","*"+query+"*").findAll();
+    }
 
 }

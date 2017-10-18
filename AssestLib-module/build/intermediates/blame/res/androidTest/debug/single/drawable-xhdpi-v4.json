@@ -184,12 +184,12 @@
         "source": "C:\\Users\\ddopik\\.android\\build-cache\\429ee4d8ba2e3a7a61e5bab6d165352e3b28de5c\\output\\res\\drawable-xhdpi-v4\\messenger_bubble_small_white.png"
     },
     {
-        "merged": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\messenger_bubble_large_blue.png",
-        "source": "C:\\Users\\ddopik\\.android\\build-cache\\429ee4d8ba2e3a7a61e5bab6d165352e3b28de5c\\output\\res\\drawable-xhdpi-v4\\messenger_bubble_large_blue.png"
-    },
-    {
         "merged": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\ddopik\\.android\\build-cache\\e94749d5a79e1c97318f823f6ceb88a6f3437123\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "C:\\Users\\ddopik\\.android\\build-cache\\429ee4d8ba2e3a7a61e5bab6d165352e3b28de5c\\output\\res\\drawable-xhdpi-v4\\messenger_bubble_large_blue.png"
     },
     {
         "merged": "C:\\Users\\ddopik\\Desktop\\ScopeListner-master\\AssestLib-module\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\quantum_ic_volume_mute_white_36.png",

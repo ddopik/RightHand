@@ -1,6 +1,8 @@
 package view;
 
+import android.app.SearchManager;
 import android.content.ActivityNotFoundException;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -12,6 +14,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -26,6 +29,10 @@ import android.widget.Toast;
 import com.example.ddopik.scopelistner.R;
 import com.example.networkmodule.permationsController.PermationController;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
 import java.util.ArrayList;
 
 import butterknife.BindView;
@@ -37,6 +44,7 @@ import model.ScopeListenerModel;
 import model.tabels.SingleItem;
 import presenter.Adapters.ItemsAdapter;
 import presenter.FragmentOnePresenter;
+import presenter.pojoClasses.SearchMessage;
 
 import static android.app.Activity.RESULT_OK;
 import static com.facebook.FacebookSdk.getApplicationContext;
@@ -48,6 +56,7 @@ import static com.facebook.FacebookSdk.getApplicationContext;
 
 public class FragmentOne extends Fragment implements RecognitionListener {
 
+    public static String FragmentOneTag = "FragmentOne";
     private final int REQ_CODE_SPEECH_INPUT = 100;
     @BindView(R.id.items_recycler_view)
     public RecyclerView recyclerView;
@@ -60,39 +69,36 @@ public class FragmentOne extends Fragment implements RecognitionListener {
     private View mainView;
     private PermationController permationController;
     private FragmentOnePresenter fragmentOnePresenter;
-
-
+    private SearchView searchView;
     private ItemsAdapter itemsAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         fragmentOnePresenter = new FragmentOnePresenter(getActivity());
-        fragmentOnePresenter.saveNewItem();
+        fragmentOnePresenter.saveTestItem();
+
         itemsList = new ScopeListenerModel(AppConfig.realm).getFullItems();
-        itemsAdapter = new ItemsAdapter(itemsList, getActivity());
-        setHasOptionsMenu(true);
 
 
     }
 
     @Override
+    public void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
+    }
+
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        Log.e("FragmentOne","FragmentOne ---->onCreateView()");
-        mainView = inflater.inflate(R.layout.fragment_two_scope_listner, container, false);
+        Log.e("FragmentOne", "FragmentOne ---->onCreateView()");
+        mainView = inflater.inflate(R.layout.fragment_one_scope_listner, container, false);
         unbinder = ButterKnife.bind(this, mainView);
 
-
-        recyclerView.setHasFixedSize(true);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
-        recyclerView.setLayoutManager(mLayoutManager);
-        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(itemsAdapter);
-
-
+        initializeRecyclerView(itemsList);
         askFor_mic_permation();
         return mainView;
     }
@@ -101,13 +107,51 @@ public class FragmentOne extends Fragment implements RecognitionListener {
     public void onCreateOptionsMenu(Menu menu, MenuInflater menuInflater) {
         menuInflater.inflate(R.menu.fragment_1_menu, menu);
         super.onCreateOptionsMenu(menu, menuInflater);
+
+        // Associate searchable configuration with the SearchView
+        SearchManager searchManager = (SearchManager) getActivity().getSystemService(Context.SEARCH_SERVICE);
+        searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+        searchView.setSearchableInfo(searchManager.getSearchableInfo(getActivity().getComponentName()));
+        searchView.setSubmitButtonEnabled(true);
+        searchView.setIconifiedByDefault(true);
+
+
+        ////////////////////
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+
+
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                itemsList = fragmentOnePresenter.querySingleItem(s);
+                recyclerView.setAdapter(new ItemsAdapter(itemsList, getActivity()));
+                itemsAdapter.notifyDataSetChanged();
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                String c = searchView.getQuery().toString();
+
+                Log.e(FragmentOneTag, "----->Null Search");
+                itemsList = new ScopeListenerModel(AppConfig.realm).querySingleItem(s);
+                itemsAdapter.setItemsList(itemsList);
+                itemsAdapter.notifyDataSetChanged();
+                return false;
+            }
+        });
+
+        ;
+
+        /////////////////////////////////////////
+
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.add_new:
-                 fragmentOnePresenter.launchSingleItemDialogFragment();
+                fragmentOnePresenter.launchSingleItemDialogFragment();
                 return true;
             case R.id.edit:
                 // TODO put your code here to respond to the button tap
@@ -116,6 +160,26 @@ public class FragmentOne extends Fragment implements RecognitionListener {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessageEvent(SearchMessage message) {
+        Toast.makeText(getActivity(), message.getSearch_query(), Toast.LENGTH_SHORT).show();
+    }
+
+    public void initializeRecyclerView(RealmResults<SingleItem> itemsList) {
+
+
+        itemsAdapter = new ItemsAdapter(getActivity());
+        itemsAdapter.setItemsList(itemsList);
+        setHasOptionsMenu(true);
+
+
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(itemsAdapter);
     }
 
     private void promptSpeechInput() {
@@ -282,6 +346,12 @@ public class FragmentOne extends Fragment implements RecognitionListener {
         } else {
             //pre mashmello
         }
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        EventBus.getDefault().unregister(this);
     }
 
     @Override

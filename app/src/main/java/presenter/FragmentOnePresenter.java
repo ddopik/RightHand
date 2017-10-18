@@ -10,6 +10,7 @@ import android.widget.Toast;
 import defaultIntializarion.AppConfig;
 import defaultIntializarion.RealmSingleton;
 import defaultIntializarion.Utilization;
+import io.realm.RealmResults;
 import model.ScopeListenerModel;
 import model.tabels.SingleItem;
 import view.SingleItemDialogFragment;
@@ -20,17 +21,16 @@ import view.SingleItemDialogFragment;
 
 public class FragmentOnePresenter {
 
-    private Context context;
-    Utilization utilization = new Utilization();
     public RealmSingleton realmSingleton = new RealmSingleton(AppConfig.realm);
+    Utilization utilization = new Utilization();
     ScopeListenerModel model = new ScopeListenerModel(AppConfig.realm);
+    private Context context;
 
 
-
-    public FragmentOnePresenter(Context context)
-    {
-        this.context=context;
+    public FragmentOnePresenter(Context context) {
+        this.context = context;
     }
+
     public SingleItem getSingleItem(int id) {
         return realmSingleton.getSingleRealmItem(SingleItem.class, "itemId", id);
     }
@@ -45,6 +45,7 @@ public class FragmentOnePresenter {
         dialogFragment.show(fm, "SingleItemDialogFragment");
 
     }
+
     /// Item Clicked from RecyclerView
     public void launchSingleItemDialogFragment(int id) {
         FragmentManager fm = ((Activity) context).getFragmentManager();
@@ -56,18 +57,20 @@ public class FragmentOnePresenter {
 
     }
 
-    public void AddNewItem(SingleItem singleItem)
-    {
+    public RealmResults<SingleItem> querySingleItem(String query) {
+        return model.querySingleItem(query);
+    }
+
+    public void AddNewItem(SingleItem singleItem) {
         try {
-            Toast.makeText(((Activity) context),singleItem.getItemId(),Toast.LENGTH_SHORT).show();
-        }catch (Exception e)
-        {
+            Toast.makeText(((Activity) context), singleItem.getItemId(), Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
 
         }
         realmSingleton.saveNewItemToRealm(singleItem);
     }
 
-    public void saveNewItem() {
+    public void saveTestItem() {
         SingleItem singleItem1 = new SingleItem();
         singleItem1.setItemId(1);
         singleItem1.setItemName("أستيكه");
