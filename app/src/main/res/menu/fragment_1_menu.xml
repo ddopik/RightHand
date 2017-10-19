@@ -14,6 +14,7 @@
         android:title="find some thing"
         app:actionViewClass="android.support.v7.widget.SearchView"
         compat:showAsAction="always" />
+
     <item
         android:id="@+id/add_new"
         android:icon="@android:drawable/ic_menu_add"

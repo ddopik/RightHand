@@ -114,9 +114,12 @@ public class FragmentOne extends Fragment implements RecognitionListener {
         searchView.setSearchableInfo(searchManager.getSearchableInfo(getActivity().getComponentName()));
         searchView.setSubmitButtonEnabled(true);
         searchView.setIconifiedByDefault(true);
+        menu.findItem(R.id.search).setActionView(searchView);
 
 
-        ////////////////////
+        ////////////////////////
+
+        //////////////////
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
 
@@ -140,7 +143,7 @@ public class FragmentOne extends Fragment implements RecognitionListener {
             }
         });
 
-        ;
+
 
         /////////////////////////////////////////
 

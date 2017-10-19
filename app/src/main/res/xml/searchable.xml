@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:label="@string/app_name"
-    android:visibility="gone"
     android:hint="@string/search_hint"
     android:voiceSearchMode="showVoiceSearchButton|launchRecognizer">
+    <!--android:layout_marginRight="2dp"-->
 </searchable>
