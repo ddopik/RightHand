@@ -20,12 +20,10 @@
         <item name="android:textColor">@color/adp_positive_button_color</item>
     </style>
 
-
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="SearchView" parent="Widget.AppCompat.SearchView">
         <item name="android:maxWidth">@dimen/maxSize</item>
     </style>
-
-
-
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

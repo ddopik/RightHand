@@ -150,6 +150,7 @@ public class FragmentOne extends Fragment implements RecognitionListener {
     }
 
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -163,6 +164,7 @@ public class FragmentOne extends Fragment implements RecognitionListener {
             default:
                 return super.onOptionsItemSelected(item);
         }
+
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
