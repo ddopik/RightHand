@@ -21,6 +21,7 @@ import butterknife.OnClick;
 import io.realm.RealmResults;
 import model.tabels.SingleItem;
 import presenter.FragmentOnePresenter;
+import view.ItemExistenceDialogFragment;
 import view.SingleItemDialogFragment;
 
 /**
@@ -103,6 +104,8 @@ public class ItemsAdapter extends  RecyclerView.Adapter<ItemsAdapter.SingleItem_
             fragmentOnePresenter.launchSingleItemDialogFragment(Integer.parseInt(item_id.getText().toString()));
 
         }
+
+
 
 
     }

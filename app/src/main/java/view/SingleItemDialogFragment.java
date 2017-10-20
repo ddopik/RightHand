@@ -70,12 +70,12 @@ public class SingleItemDialogFragment extends DialogFragment {
 
         singleItem.setItemName(item_name.getText().toString());
         singleItem.setItemPrice(item_price.getText().toString());
-        singleItem.setItemExistence(item_existence.getText().toString());
+        singleItem.setItemExistence(Boolean.parseBoolean(item_existence.getText().toString()));
         singleItem.setItemUpdate(item_last_update.getText().toString());
         if (item_id.getText() == null || item_id.getText() == "") {
             id = fragmentOnePresenter.realmSingleton.getLastID(SingleItem.class, "itemId");
-        }else{
-            id=Integer.parseInt(item_id.getText().toString());
+        } else {
+            id = Integer.parseInt(item_id.getText().toString());
         }
         singleItem.setItemId(id);
 
@@ -84,7 +84,13 @@ public class SingleItemDialogFragment extends DialogFragment {
         fragmentOnePresenter.AddNewItem(singleItem);
 
     }
+    @OnClick(R.id.item_existence)
+    public void setItem_existence()
+    {
+        fragmentOnePresenter.launchItemExistenceDialogFragment(Integer.parseInt(item_id.getText().toString()));
 
+
+    }
     @OnClick(R.id.dialog_cancel_btn)
     public void cancel_btn() {
         getDialog().dismiss();

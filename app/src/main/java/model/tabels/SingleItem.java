@@ -15,7 +15,7 @@ public class SingleItem extends RealmObject {
     private int itemId;
     private String itemName;
     private String itemPrice;
-    private String itemExistence;
+    private boolean itemExistence;
     private String itemUpdate;
 
     public int getItemId() {
@@ -42,11 +42,11 @@ public class SingleItem extends RealmObject {
         this.itemPrice = itemPrice;
     }
 
-    public String isItemExistence() {
+    public boolean isItemExistence() {
         return itemExistence;
     }
 
-    public void setItemExistence(String itemExistence) {
+    public void setItemExistence(boolean itemExistence) {
         this.itemExistence = itemExistence;
     }
 
