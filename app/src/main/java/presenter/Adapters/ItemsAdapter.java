@@ -2,7 +2,6 @@ package presenter.Adapters;
 
 
 import android.content.Context;
-
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -30,12 +29,12 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.SingleItem_V
     private Context context;
     private Fragment fragmentContext;
     private FragmentOnePresenter fragmentOnePresenter;
-    private int openExistingItemCode =11;
+    private int openExistingItemCode = 11;
 
-    public ItemsAdapter(RealmResults<SingleItem> singleItems, Context context,Fragment fragment) {
+    public ItemsAdapter(RealmResults<SingleItem> singleItems, Context context, Fragment fragment) {
         this.itemsList = singleItems;
         this.context = context;
-        fragmentContext=fragment;
+        fragmentContext = fragment;
     }
 
     public ItemsAdapter(Context context) {
@@ -51,11 +50,16 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.SingleItem_V
     public SingleItem_ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_single_row, parent, false);
         fragmentOnePresenter = new FragmentOnePresenter(context);
+
+
         return new SingleItem_ViewHolder(itemView);
     }
 
+
     @Override
     public void onBindViewHolder(SingleItem_ViewHolder holder, int position) {
+
+
         SingleItem singleItem = itemsList.get(position);
         holder.item_id.setText(singleItem.getItemId() + "");
         holder.item_name.setText(singleItem.getItemName());
@@ -96,7 +100,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.SingleItem_V
 
         @OnClick(R.id.single_item_row)
         public void singleRowEvent() {
-            fragmentOnePresenter.launchSingleItemDialogFragment(Integer.parseInt(item_id.getText().toString()),openExistingItemCode );
+            fragmentOnePresenter.launchSingleItemDialogFragment(Integer.parseInt(item_id.getText().toString()), openExistingItemCode);
         }
 
 

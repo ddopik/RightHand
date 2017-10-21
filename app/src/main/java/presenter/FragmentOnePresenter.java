@@ -6,10 +6,18 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.Toast;
+
+import com.example.networkmodule.permationsController.PermationController;
 
 import defaultIntializarion.AppConfig;
 import defaultIntializarion.RealmSingleton;
@@ -17,6 +25,7 @@ import defaultIntializarion.Utilization;
 import io.realm.RealmResults;
 import model.ScopeListenerModel;
 import model.tabels.SingleItem;
+import presenter.Adapters.ItemsAdapter;
 import view.ItemExistenceDialogFragment;
 import view.SingleItemDialogFragment;
 
@@ -28,6 +37,7 @@ public class FragmentOnePresenter {
 
     public RealmSingleton realmSingleton = new RealmSingleton(AppConfig.realm);
     public Utilization utilization = new Utilization();
+    private PermationController permationController;
     ScopeListenerModel model = new ScopeListenerModel(AppConfig.realm);
     private Context context;
 
@@ -85,7 +95,30 @@ public class FragmentOnePresenter {
         }
         realmSingleton.saveNewItemToRealm(singleItem);
     }
+    public void askFor_mic_permation() {
+        if (Build.VERSION.SDK_INT >= 23) {
+            permationController = new PermationController(((Activity) context)) {
+                @Override
+                public ExternalPermeation_Cancel_Method setExternalPermeation_Cancel_Method() {
 
+                    return new ExternalPermeation_Cancel_Method() {
+                        @Override
+                        public void ExternalPermeation_Cancel_Method() {
+                            Log.e("FragmentOne", "TraccerHere------------->Horaaaai");
+                        }
+                    };
+                }
+            };
+
+            permationController.askSinglePermeation(android.Manifest.permission.RECORD_AUDIO, "message", 101);
+        } else {
+            //pre mashmello
+        }
+    }
+    public RealmResults<SingleItem> getFullItems()
+    {
+      return   new ScopeListenerModel(AppConfig.realm).getFullItems();
+    }
     public void saveTestItem() {
         SingleItem singleItem1 = new SingleItem();
         singleItem1.setItemId(1);
