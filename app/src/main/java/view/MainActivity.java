@@ -1,21 +1,14 @@
 package view;
 
 
-import android.app.SearchManager;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
-import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 
 import com.example.ddopik.scopelistner.R;
-import com.google.android.gms.wearable.MessageEvent;
-
-import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +16,6 @@ import java.util.List;
 import UiComponanets.simleViewPager.ViewPagerActivity;
 import UiComponanets.simleViewPager.ViewPagerAdapter;
 import butterknife.BindView;
-import presenter.pojoClasses.SearchMessage;
 
 
 public class MainActivity extends ViewPagerActivity {

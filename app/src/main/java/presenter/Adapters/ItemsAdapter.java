@@ -96,8 +96,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.SingleItem_V
 
         @OnClick(R.id.single_item_row)
         public void singleRowEvent() {
-            fragmentOnePresenter.launchSingleItemDialogFragment(Integer.parseInt(item_id.getText().toString(),openExistingItemCode),openExistingItemCode );
-
+            fragmentOnePresenter.launchSingleItemDialogFragment(Integer.parseInt(item_id.getText().toString()),openExistingItemCode );
         }
 
 

@@ -1,7 +1,6 @@
 package view;
 
 import android.app.DatePickerDialog;
-
 import android.app.DialogFragment;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,12 +13,15 @@ import android.widget.TextView;
 
 import com.example.ddopik.scopelistner.R;
 
+import org.greenrobot.eventbus.EventBus;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
 import model.tabels.SingleItem;
 import presenter.FragmentOnePresenter;
+import presenter.pojoClasses.SingleItemMessage;
 
 /**
  * Created by ddopik on 10/14/2017.
@@ -49,6 +51,7 @@ public class SingleItemDialogFragment extends DialogFragment {
         rootView = inflater.inflate(R.layout.single_item_dialog_fragment, container, false);
         getDialog().setTitle("Simple Dialog");
         unbinder = ButterKnife.bind(this, rootView);
+
         fragmentOnePresenter = new FragmentOnePresenter(getActivity());
 
         if (getArguments() != null)
@@ -88,12 +91,18 @@ public class SingleItemDialogFragment extends DialogFragment {
 
         fragmentOnePresenter.AddNewItem(singleItem);
 
+
+        SingleItemMessage sss = new SingleItemMessage();
+        sss.setUpdateFragmentOneList(true);
+        EventBus.getDefault().post(sss);
+
+
     }
 
 
     @OnClick(R.id.item_existence_val)
     public void setItem_existence() {
-        fragmentOnePresenter.launchItemExistenceDialogFragment(this,Integer.parseInt(item_id.getText().toString()),item_existence_val);
+        fragmentOnePresenter.launchItemExistenceDialogFragment(this, Integer.parseInt(item_id.getText().toString()), item_existence_val);
 
 
     }
@@ -134,6 +143,7 @@ public class SingleItemDialogFragment extends DialogFragment {
     public void onDestroyView() {
         super.onDestroyView();
         unbinder.unbind();
+
     }
 }
 

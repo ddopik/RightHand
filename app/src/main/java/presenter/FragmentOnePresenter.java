@@ -52,7 +52,7 @@ public class FragmentOnePresenter {
     }
 
     /// Item Clicked from RecyclerView
-    public void launchSingleItemDialogFragment( int id, int requstCode) {
+    public void launchSingleItemDialogFragment( int id, int requestCode) {
         FragmentManager fm = ((Activity) context).getFragmentManager();
         SingleItemDialogFragment dialogFragment = new SingleItemDialogFragment();
         Bundle bundle_id = new Bundle();

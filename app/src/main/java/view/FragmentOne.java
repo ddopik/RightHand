@@ -1,6 +1,7 @@
 package view;
 
 
+
 import android.app.SearchManager;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -10,6 +11,7 @@ import android.os.Bundle;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
+
 
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -46,7 +48,7 @@ import model.ScopeListenerModel;
 import model.tabels.SingleItem;
 import presenter.Adapters.ItemsAdapter;
 import presenter.FragmentOnePresenter;
-import presenter.pojoClasses.SearchMessage;
+import presenter.pojoClasses.SingleItemMessage;
 
 import static android.app.Activity.RESULT_OK;
 import static com.facebook.FacebookSdk.getApplicationContext;
@@ -86,9 +88,15 @@ public class FragmentOne extends Fragment implements RecognitionListener {
     }
 
     @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        EventBus.getDefault().register(this);
+    }
+
+    @Override
     public void onStart() {
         super.onStart();
-        EventBus.getDefault().register(this);
+
     }
 
 
@@ -167,9 +175,12 @@ public class FragmentOne extends Fragment implements RecognitionListener {
 
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onMessageEvent(SearchMessage message) {
-        Toast.makeText(getActivity(), message.getSearch_query(), Toast.LENGTH_SHORT).show();
+    @Subscribe
+    public void onMessageEvent(SingleItemMessage message) {
+     if (message.getUpdateFragmentOneList())
+     {
+         itemsAdapter.notifyDataSetChanged();
+     }
     }
 
     public void initializeRecyclerView(RealmResults<SingleItem> itemsList) {
@@ -353,9 +364,10 @@ public class FragmentOne extends Fragment implements RecognitionListener {
         }
     }
 
+
     @Override
-    public void onStop() {
-        super.onStop();
+    public void onDestroy() {
+        super.onDestroy();
         EventBus.getDefault().unregister(this);
     }
 
