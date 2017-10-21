@@ -89,6 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/item_rec"
+            android:focusableInTouchMode="false"
             android:text="Item existence"
             android:textAlignment="center" />
     </LinearLayout>
@@ -116,6 +117,7 @@
             android:background="@drawable/item_rec"
             android:scaleType="fitCenter"
             android:text="Item update"
+            android:focusableInTouchMode="false"
             android:textAlignment="center" />
 
     </LinearLayout>

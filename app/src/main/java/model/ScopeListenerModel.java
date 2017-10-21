@@ -1,5 +1,6 @@
 package model;
 
+import defaultIntializarion.RealmSingleton;
 import io.realm.Realm;
 import io.realm.RealmResults;
 import model.tabels.SingleItem;
@@ -10,9 +11,11 @@ import model.tabels.SingleItem;
 
 public class ScopeListenerModel {
     private Realm realm;
+    private RealmSingleton realmSingleton;
 
     public ScopeListenerModel(Realm realm) {
         this.realm = realm;
+        realmSingleton=new   RealmSingleton(realm);
     }
 
 
@@ -26,6 +29,15 @@ public class ScopeListenerModel {
         // *char* ---> match Only if there is any characters before it and any character after it
         // char*  ---> match Only if there is any characters after it
         return realm.where(SingleItem.class).like("itemName","*"+query+"*").findAll();
+    }
+
+    public void setSingleItemItemExistence(int id,boolean existence)
+    {
+        SingleItem singleItem=realmSingleton.getSingleRealmItem(SingleItem.class,"itemId",id);
+        realm.beginTransaction();
+        singleItem.setItemExistence(existence);
+        realm.commitTransaction();
+
     }
 
 }

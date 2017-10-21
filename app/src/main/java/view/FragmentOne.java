@@ -1,5 +1,6 @@
 package view;
 
+
 import android.app.SearchManager;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
+
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
@@ -126,15 +128,13 @@ public class FragmentOne extends Fragment implements RecognitionListener {
             @Override
             public boolean onQueryTextSubmit(String s) {
                 itemsList = fragmentOnePresenter.querySingleItem(s);
-                recyclerView.setAdapter(new ItemsAdapter(itemsList, getActivity()));
+                recyclerView.setAdapter(new ItemsAdapter(itemsList,getActivity(),FragmentOne.this));
                 itemsAdapter.notifyDataSetChanged();
                 return false;
             }
 
             @Override
             public boolean onQueryTextChange(String s) {
-                String c = searchView.getQuery().toString();
-
                 Log.e(FragmentOneTag, "----->Null Search");
                 itemsList = new ScopeListenerModel(AppConfig.realm).querySingleItem(s);
                 itemsAdapter.setItemsList(itemsList);

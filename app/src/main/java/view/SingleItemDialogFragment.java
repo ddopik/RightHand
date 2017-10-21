@@ -1,10 +1,14 @@
 package view;
 
+import android.app.DatePickerDialog;
+
 import android.app.DialogFragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -38,6 +42,7 @@ public class SingleItemDialogFragment extends DialogFragment {
     private SingleItem singleItem;
     private Unbinder unbinder;
     private FragmentOnePresenter fragmentOnePresenter;
+    private int item_existence_val = 10;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -84,17 +89,46 @@ public class SingleItemDialogFragment extends DialogFragment {
         fragmentOnePresenter.AddNewItem(singleItem);
 
     }
-    @OnClick(R.id.item_existence)
-    public void setItem_existence()
-    {
-        fragmentOnePresenter.launchItemExistenceDialogFragment(Integer.parseInt(item_id.getText().toString()));
+
+
+    @OnClick(R.id.item_existence_val)
+    public void setItem_existence() {
+        fragmentOnePresenter.launchItemExistenceDialogFragment(this,Integer.parseInt(item_id.getText().toString()),item_existence_val);
 
 
     }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == item_existence_val) {
+
+//            item_existence.setText(singleItem.isItemExistence() + "");
+            item_existence.setText(data.getExtras().getBoolean("State") + "");
+
+        }
+    }
+
+
+    @OnClick(R.id.item_last_update_val)
+    public void pickdate() {
+        DatePickerDialog.OnDateSetListener onDateSetListener = new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+
+            }
+        };
+
+        DatePickerDialog dialog = new DatePickerDialog(getActivity(), onDateSetListener, 2013, 2, 18);
+        dialog.show();
+    }
+
+
     @OnClick(R.id.dialog_cancel_btn)
     public void cancel_btn() {
         getDialog().dismiss();
     }
+
 
     @Override
     public void onDestroyView() {

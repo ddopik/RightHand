@@ -25,6 +25,7 @@ public class RealmSingleton {
         realm.beginTransaction();
         realm.copyToRealmOrUpdate(object);
         realm.commitTransaction();
+
     }
 
     public <E extends RealmObject> E getSingleRealmItem(Class<E> className, String id_Key, int id) {

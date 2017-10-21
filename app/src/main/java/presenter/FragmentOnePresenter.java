@@ -2,9 +2,13 @@ package presenter;
 
 
 import android.app.Activity;
+
+import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+
 import android.widget.Toast;
 
 import defaultIntializarion.AppConfig;
@@ -48,7 +52,7 @@ public class FragmentOnePresenter {
     }
 
     /// Item Clicked from RecyclerView
-    public void launchSingleItemDialogFragment(int id) {
+    public void launchSingleItemDialogFragment( int id, int requstCode) {
         FragmentManager fm = ((Activity) context).getFragmentManager();
         SingleItemDialogFragment dialogFragment = new SingleItemDialogFragment();
         Bundle bundle_id = new Bundle();
@@ -58,16 +62,21 @@ public class FragmentOnePresenter {
 
     }
     /// Item Clicked from RecyclerView
-    public void launchItemExistenceDialogFragment(int id) {
+    public void launchItemExistenceDialogFragment(Fragment fragment, int id, int requestCode) {
         FragmentManager fm = ((Activity) context).getFragmentManager();
         ItemExistenceDialogFragment dialogFragment = new ItemExistenceDialogFragment();
         Bundle bundle_id = new Bundle();
         bundle_id.putInt("itemId", id);
         dialogFragment.setArguments(bundle_id);
-        dialogFragment.show(fm, "Existence DialogFragment");
+        dialogFragment.setTargetFragment(fragment,requestCode);
+        dialogFragment.show(fm,"Existence DialogFragment");
 
     }
 
+    public void setItemExistence(int id, boolean existence)
+    {
+        model.setSingleItemItemExistence(id,existence);
+    }
 
     public RealmResults<SingleItem> querySingleItem(String query) {
         return model.querySingleItem(query);
