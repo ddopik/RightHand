@@ -44,7 +44,8 @@ public class SingleItemDialogFragment extends DialogFragment {
     private SingleItem singleItem;
     private Unbinder unbinder;
     private FragmentOnePresenter fragmentOnePresenter;
-    private int item_existence_val = 10;
+    private int item_existenceRequestCode = 10;
+    private DatePickerDialog.OnDateSetListener mDateSetListener;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -102,7 +103,7 @@ public class SingleItemDialogFragment extends DialogFragment {
 
     @OnClick(R.id.item_existence_val)
     public void setItem_existence() {
-        fragmentOnePresenter.launchItemExistenceDialogFragment(this, Integer.parseInt(item_id.getText().toString()), item_existence_val);
+        fragmentOnePresenter.launchItemExistenceDialogFragment(this, Integer.parseInt(item_id.getText().toString()), item_existenceRequestCode);
 
 
     }
@@ -110,7 +111,7 @@ public class SingleItemDialogFragment extends DialogFragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == item_existence_val) {
+        if (requestCode == item_existenceRequestCode) {
 
 //            item_existence.setText(singleItem.isItemExistence() + "");
             item_existence.setText(data.getExtras().getBoolean("State") + "");
@@ -121,15 +122,21 @@ public class SingleItemDialogFragment extends DialogFragment {
 
     @OnClick(R.id.item_last_update_val)
     public void pickdate() {
-        DatePickerDialog.OnDateSetListener onDateSetListener = new DatePickerDialog.OnDateSetListener() {
+
+        String[] dateArr = singleItem.getItemUpdate().split("-");
+        mDateSetListener = new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+
+                item_last_update.setText(dayOfMonth + "-" + month + "-" + year);
 
             }
         };
 
-        DatePickerDialog dialog = new DatePickerDialog(getActivity(), onDateSetListener, 2013, 2, 18);
+        DatePickerDialog dialog = new DatePickerDialog(getActivity(), mDateSetListener, Integer.parseInt(dateArr[2]), Integer.parseInt(dateArr[1]), Integer.parseInt(dateArr[0]));
+
         dialog.show();
+
     }
 
 

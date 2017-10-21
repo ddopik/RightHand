@@ -27,7 +27,7 @@ import view.SingleItemDialogFragment;
 public class FragmentOnePresenter {
 
     public RealmSingleton realmSingleton = new RealmSingleton(AppConfig.realm);
-    Utilization utilization = new Utilization();
+    public Utilization utilization = new Utilization();
     ScopeListenerModel model = new ScopeListenerModel(AppConfig.realm);
     private Context context;
 
@@ -61,7 +61,7 @@ public class FragmentOnePresenter {
         dialogFragment.show(fm, "SingleItemDialogFragment");
 
     }
-    /// Item Clicked from RecyclerView
+    /// Item Clicked from RecyclerView (Simple dialog with two checkBoxes)
     public void launchItemExistenceDialogFragment(Fragment fragment, int id, int requestCode) {
         FragmentManager fm = ((Activity) context).getFragmentManager();
         ItemExistenceDialogFragment dialogFragment = new ItemExistenceDialogFragment();
@@ -71,11 +71,6 @@ public class FragmentOnePresenter {
         dialogFragment.setTargetFragment(fragment,requestCode);
         dialogFragment.show(fm,"Existence DialogFragment");
 
-    }
-
-    public void setItemExistence(int id, boolean existence)
-    {
-        model.setSingleItemItemExistence(id,existence);
     }
 
     public RealmResults<SingleItem> querySingleItem(String query) {
@@ -97,7 +92,7 @@ public class FragmentOnePresenter {
         singleItem1.setItemName("أستيكه");
         singleItem1.setItemPrice("1.5");
         singleItem1.setItemExistence(true);
-        singleItem1.setItemUpdate(utilization.getCurrentDate());
+        singleItem1.setItemUpdate(utilization.getCurrentDate("def"));
 
         ////////////////////////
         SingleItem singleItem2 = new SingleItem();
@@ -105,70 +100,70 @@ public class FragmentOnePresenter {
         singleItem2.setItemName("ألوان");
         singleItem2.setItemPrice("2.5");
         singleItem2.setItemExistence(true);
-        singleItem2.setItemUpdate(utilization.getCurrentDate());
+        singleItem2.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem3 = new SingleItem();
         singleItem3.setItemId(3);
         singleItem3.setItemName("مسطره");
         singleItem3.setItemPrice("1.5");
         singleItem3.setItemExistence(true);
-        singleItem3.setItemUpdate(utilization.getCurrentDate());
+        singleItem3.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem4 = new SingleItem();
         singleItem4.setItemId(4);
         singleItem4.setItemName("قلم جيل");
         singleItem4.setItemPrice("3.5");
         singleItem4.setItemExistence(true);
-        singleItem4.setItemUpdate(utilization.getCurrentDate());
+        singleItem4.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem5 = new SingleItem();
         singleItem5.setItemId(5);
         singleItem5.setItemName("برايه");
         singleItem5.setItemPrice("1.5");
         singleItem5.setItemExistence(true);
-        singleItem5.setItemUpdate(utilization.getCurrentDate());
+        singleItem5.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem6 = new SingleItem();
         singleItem6.setItemId(6);
         singleItem6.setItemName("ورق تصوير");
         singleItem6.setItemPrice("55");
         singleItem6.setItemExistence(true);
-        singleItem6.setItemUpdate(utilization.getCurrentDate());
+        singleItem6.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem7 = new SingleItem();
         singleItem7.setItemId(7);
         singleItem7.setItemName("ورق كربون");
         singleItem7.setItemPrice("1.5");
         singleItem7.setItemExistence(true);
-        singleItem7.setItemUpdate(utilization.getCurrentDate());
+        singleItem7.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem8 = new SingleItem();
         singleItem8.setItemId(8);
         singleItem8.setItemName("فايل عادى");
         singleItem8.setItemPrice("3");
         singleItem8.setItemExistence(true);
-        singleItem8.setItemUpdate(utilization.getCurrentDate());
+        singleItem8.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem9 = new SingleItem();
         singleItem9.setItemId(9);
         singleItem9.setItemName("ورق بريستون");
         singleItem9.setItemPrice("3");
         singleItem9.setItemExistence(true);
-        singleItem9.setItemUpdate(utilization.getCurrentDate());
+        singleItem9.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem10 = new SingleItem();
         singleItem10.setItemId(10);
         singleItem10.setItemName("قص و لزق");
         singleItem10.setItemPrice("3.5");
         singleItem10.setItemExistence(true);
-        singleItem10.setItemUpdate(utilization.getCurrentDate());
+        singleItem10.setItemUpdate(utilization.getCurrentDate("def"));
         ////////////////////////
         SingleItem singleItem11 = new SingleItem();
         singleItem11.setItemId(11);
         singleItem11.setItemName("دبوس مكتب");
         singleItem11.setItemPrice("1");
         singleItem11.setItemExistence(true);
-        singleItem11.setItemUpdate(utilization.getCurrentDate());
+        singleItem11.setItemUpdate(utilization.getCurrentDate("def"));
 
 
         realmSingleton.saveNewItemToRealm(singleItem1);

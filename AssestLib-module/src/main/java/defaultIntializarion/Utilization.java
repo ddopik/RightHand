@@ -2,7 +2,6 @@ package defaultIntializarion;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 /**
  * Created by ddopik on 10/11/2017.
@@ -23,13 +22,38 @@ public class Utilization {
         return Class.forName(className);
     }
 
-    public String getCurrentDate()
-    {
+    public String getCurrentDate(String flag) {
         Calendar c = Calendar.getInstance();
-        System.out.println("Current time => " + c.getTime());
 
-        SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
-        String formattedDate = df.format(c.getTime());
-        return formattedDate;
+
+        switch (flag) {
+            case "Day":
+                SimpleDateFormat d = new SimpleDateFormat("dd");
+                return d.format(c.getTime());
+
+            case "Day_word":
+                SimpleDateFormat d_w = new SimpleDateFormat("EEEE");
+                return d_w.format(c.getTime());
+
+            case "Month_word":
+                SimpleDateFormat m = new SimpleDateFormat("MMM");
+                return m.format(c.getTime());
+
+            case "Month":
+                SimpleDateFormat m_w = new SimpleDateFormat("MM");
+                return m_w.format(c.getTime());
+
+
+            case "Year":
+                SimpleDateFormat y = new SimpleDateFormat("yyyy");
+                return y.format(c.getTime());
+
+            default:
+                SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");
+                String formattedDate = df.format(c.getTime());
+                return formattedDate;
+        }
+
+
     }
 }
